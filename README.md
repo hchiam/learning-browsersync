@@ -29,3 +29,9 @@ Example if already running a server:
 ```bash
 browser-sync start --proxy "myproject.dev" --files "css/*.css"
 ```
+
+Another example:
+
+```bash
+browser-sync start --proxy "http://localhost:1234/" --files "some-css-folder" "some-js-folder" "index.html" "slides.css" "slides.js"
+```
