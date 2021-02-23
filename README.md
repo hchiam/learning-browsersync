@@ -32,7 +32,7 @@ browser-sync start --server --files "css/*.css"
 browser-sync start --proxy "myproject.dev" --files "css/*.css"
 ```
 
-which will copy what you have on `myproject.dev` to http://localhost:3000
+which will sync what you have on `myproject.dev` to all browsers running http://localhost:3000
 
 ## Another example:
 
@@ -40,7 +40,7 @@ which will copy what you have on `myproject.dev` to http://localhost:3000
 browser-sync start --proxy "http://localhost:1234/" --files "some-css-folder" "some-js-folder" "index.html" "slides.css" "slides.js"
 ```
 
-which will copy what you have on port 1234 to http://localhost:3000
+which will sync what you have on port 1234 to all browsers running http://localhost:3000
 
 ## Recipes:
 
