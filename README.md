@@ -4,7 +4,7 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 https://www.browsersync.io
 
-Mirror your actions across a bunch of synchronized browsers on the same machine. Example: run the same actions on a bunch of browsers at the same time. Just open them all to the same port, and it'll try to replicate your actions on all the browsers at the same time. https://www.sitepoint.com/improve-workflow-browsersync-2-0
+Mirror your actions across a bunch of synchronized browsers on the same machine. Example: run the same actions on a bunch of browsers at the same time. Just open them all to the same port (e.g. Browsersync creates http://localhost:3000), and it'll try to replicate your actions on all the browsers at the same time. https://www.sitepoint.com/improve-workflow-browsersync-2-0
 
 ```bash
 npm install -g browser-sync
