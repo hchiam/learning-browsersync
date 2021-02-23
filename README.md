@@ -20,23 +20,27 @@ yarn global add browser-sync
 
 -->
 
-Example if you don't have a server running already:
+## Example if you don't have a server running already:
 
 ```bash
 browser-sync start --server --files "css/*.css"
 ```
 
-Example if already running a server:
+## Example if already running a server:
 
 ```bash
 browser-sync start --proxy "myproject.dev" --files "css/*.css"
 ```
 
-Another example:
+which will copy what you have on `myproject.dev` to http://localhost:3000
+
+## Another example:
 
 ```bash
 browser-sync start --proxy "http://localhost:1234/" --files "some-css-folder" "some-js-folder" "index.html" "slides.css" "slides.js"
 ```
+
+which will copy what you have on port 1234 to http://localhost:3000
 
 ## Recipes:
 
