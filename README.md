@@ -17,3 +17,15 @@ yarn global add browser-sync
 ```
 
 -->
+
+Example if you don't have a server running already:
+
+```bash
+browser-sync start --server --files "css/*.css"
+```
+
+Example if already running a server:
+
+```bash
+browser-sync start --proxy "myproject.dev" --files "css/*.css"
+```
