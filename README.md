@@ -35,3 +35,7 @@ Another example:
 ```bash
 browser-sync start --proxy "http://localhost:1234/" --files "some-css-folder" "some-js-folder" "index.html" "slides.css" "slides.js"
 ```
+
+## Recipes:
+
+https://www.browsersync.io/docs/recipes
