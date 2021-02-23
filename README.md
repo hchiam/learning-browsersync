@@ -8,8 +8,12 @@ https://www.browsersync.io
 npm install -g browser-sync
 ```
 
+<!-- (didn't seem to work for yarn)
+
 or
 
 ```bash
 yarn global add browser-sync
 ```
+
+-->
